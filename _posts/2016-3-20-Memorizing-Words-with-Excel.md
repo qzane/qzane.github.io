@@ -12,7 +12,8 @@ title: Memorizing words with Excel
 ![最终效果](/images/160320-demo.png "最终效果") <br/>
 测试时，可以隐藏B列和D列，在C列中打出拼写，A列会自动判断拼写结果。
 
-# 设置方法
+# 设置方法  
+
 ## 输入公式
 在A2中输入公式
 ``` excel
