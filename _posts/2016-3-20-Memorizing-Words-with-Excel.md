@@ -2,8 +2,8 @@
 layout: post
 title: Memorizing words with Excel
 ---
-使用Excel背单词的一些设置以及一些注意点。(因为装的是中文版Office所以就用中文写了)
-![王陆语料库横向练习C3T1-C3T5](/attachments/160320-corpus.xlsx "王陆语料库")
+使用Excel背单词的一些设置以及一些注意点。(因为装的是中文版Office所以就用中文写了) <br/>
+![王陆语料库横向练习C3T1-C3T5](/attachments/160320-corpus.xlsx?raw=true "王陆语料库")
 
 # 目的
 背单词有三种：1.看到英文能想起释义，2.听到英文能写出单词，3.看到释义能写出单词。而本方法适用于后两种。主要价值在于，让电脑自动帮你判断写出来的单词是否正确。
