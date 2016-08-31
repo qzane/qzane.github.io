@@ -10,10 +10,10 @@ StarDict是Linux下最常用的字典软件，并且支持取词功能，尤其�
 
 # 过程
 提取发音地址的方法很简单，看下面提供的代码即可。</br>
-把这份代码保存为 $HOME/.stardict/speak.py </br>
+把这份代码保存为 $HOME/.stardict/speaker.py </br>
 然后在 `StarDict设置>>Dictionary>>Sound` 中  </br>
 把`Use TTS program` 前面的勾打上 </br>
-在 `Commandline` 中填写 `python $HOME/.stardict/speak.py %s &`即可
+在 `Commandline` 中填写 `python $HOME/.stardict/speaker.py %s &`即可
 
 # 注意
 * Python3或者Python2都可以使用这份代码，但是要安装Requests和lxml这两个第三方库, 通过pip安装即可
@@ -31,7 +31,7 @@ import os
 import requests
 from lxml import etree
 
-PLAYER = 'mplayer'
+PLAYER = 'mplayer -volume 100 -softvol -softvol-max 200' #turn up the voice
 
 HOST = 'http://dict.cn'
 URL = 'http://audio.dict.cn/{}'
