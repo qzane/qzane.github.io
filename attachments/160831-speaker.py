@@ -7,7 +7,7 @@ import os
 import requests
 from lxml import etree
 
-PLAYER = 'mplayer'
+PLAYER = 'mplayer -volume 100 -softvol -softvol-max 200' #turn up the voice
 
 HOST = 'http://dict.cn'
 URL = 'http://audio.dict.cn/{}'
