@@ -1,5 +1,6 @@
 #----speaker.py by me@qzane.com------#
 #----2016-08-31----------------------#
+#todo: cache directory should be specific
 
 import sys
 import os
@@ -7,7 +8,7 @@ import os
 import requests
 from lxml import etree
 
-PLAYER = 'mplayer -volume 100 -softvol -softvol-max 200' #turn up the voice
+PLAYER = 'mplayer -volume 100 -softvol -softvol-max 200'
 
 HOST = 'http://dict.cn'
 URL = 'http://audio.dict.cn/{}'
@@ -42,7 +43,13 @@ def getData(word, class_name='F', path='US'):
         data = requests.get(url).content
         return data
 
+def checkVoice(word):
+    return os.path.isfile('./voice/{}.mp3'.format(word)) 
+
 def main():
+    if(checkVoice(sys.argv[1])):
+        os.system('{PLAYER} ./voice/{WORD}.mp3'.format(PLAYER=PLAYER, WORD=sys.argv[1]))
+        return 0
     data = getData(sys.argv[1])
     if data == b'':
         print('no voice found')
@@ -52,6 +59,7 @@ def main():
         with open('tmp.mp3','wb') as f:    
             f.write(getData(sys.argv[1], class_name, path))
         os.system('{PLAYER} tmp.mp3'.format(PLAYER=PLAYER))
+        os.system('mv tmp.mp3 ./voice/{}.mp3'.format(sys.argv[1]))        
 
 if __name__ == '__main__':
     if (len(sys.argv)<2 or
