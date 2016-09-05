@@ -1,12 +1,15 @@
 #----speaker.py by me@qzane.com------#
 #----2016-08-31----------------------#
-#todo: cache directory should be specific
 
 import sys
 import os
 
 import requests
 from lxml import etree
+
+REAL_PATH = os.path.split(os.path.realpath(sys.argv[0]))[0]
+
+CACHE_PATH = os.path.join(REAL_PATH, 'voice')
 
 PLAYER = 'mplayer -volume 100 -softvol -softvol-max 200'
 
@@ -19,12 +22,13 @@ CLASS_FEMALE = 'sound fsound'
 XPATH = '//i[@class=\'{}\']/@naudio'
 
 USAGE = '''USAGE: python3 {PROGRAM_NAME} [options] word
+    (to enable cache, mkdir {CACHE_PATH})
     -h --help, show this message
     -F, Female voice (default)
     -M, Male voice
     -US, US voice (default)
     -UK, UK voice
-'''.format(PROGRAM_NAME=sys.argv[0])
+'''.format(PROGRAM_NAME=sys.argv[0], CACHE_PATH=CACHE_PATH)
 
 def getVoice(word, class_name='F', path='US'):
     assert(word.isalpha())
@@ -44,22 +48,24 @@ def getData(word, class_name='F', path='US'):
         return data
 
 def checkVoice(word):
-    return os.path.isfile('./voice/{}.mp3'.format(word)) 
+    return os.path.isfile('{}/{}.mp3'.format(CACHE_PATH, word)) 
 
 def main():
-    if(checkVoice(sys.argv[1])):
-        os.system('{PLAYER} ./voice/{WORD}.mp3'.format(PLAYER=PLAYER, WORD=sys.argv[1]))
+    word = sys.argv[1]
+    word_path = os.path.join(CACHE_PATH, '{}.mp3'.format(word))
+    if checkVoice(word):
+        os.system('{PLAYER} {WORD}'.format(PLAYER=PLAYER, WORD=word_path))
         return 0
-    data = getData(sys.argv[1])
+    data = getData(word)
     if data == b'':
         print('no voice found')
     else:
         class_name = 'F' if not '-M' in sys.argv else 'M'
         path = 'US' if not '-UK' in sys.argv else 'UK'
-        with open('tmp.mp3','wb') as f:    
-            f.write(getData(sys.argv[1], class_name, path))
-        os.system('{PLAYER} tmp.mp3'.format(PLAYER=PLAYER))
-        os.system('mv tmp.mp3 ./voice/{}.mp3'.format(sys.argv[1]))        
+        with open('{}.mp3'.format(word),'wb') as f:    
+            f.write(getData(word, class_name, path))
+        os.system('{PLAYER} {WORD}.mp3'.format(PLAYER=PLAYER, WORD=word))
+        os.system('mv {}.mp3 {}'.format(word, word_path))        
 
 if __name__ == '__main__':
     if (len(sys.argv)<2 or
