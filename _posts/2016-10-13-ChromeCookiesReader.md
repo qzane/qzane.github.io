@@ -16,7 +16,7 @@ https://github.com/qzane/ChromeCookiesReader
 个中滋味真是...不被虐过一遍感受不到，不过好在最后还是调成功了。
 
 # some tools with cookies
-Firefox: [Web Developer](https://addons.mozilla.org/en-us/firefox/addon/web-developer/) </br>
-Chrome : [Edit This Cookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) </br>
-IE: [IECookiesView](http://www.nirsoft.net/utils/iecookies.html) </br>
-ALL: [Fiddler](https://www.telerik.com/download/fiddler) </br>
+Firefox: [Web Developer](https://addons.mozilla.org/en-us/firefox/addon/web-developer/)  <br/>
+Chrome : [Edit This Cookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)  <br/>
+IE: [IECookiesView](http://www.nirsoft.net/utils/iecookies.html)  <br/>
+ALL: [Fiddler](https://www.telerik.com/download/fiddler)  <br/>
