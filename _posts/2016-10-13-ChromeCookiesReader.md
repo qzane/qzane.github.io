@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speaker-For-Stardict
+title: ChromeCookiesReader
 ---
 read and decrypt Chrome Cookies on Windows
 
