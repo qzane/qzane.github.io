@@ -5,7 +5,7 @@ title: ChromeCookiesReader
 read and decrypt Chrome Cookies on Windows
 
 # source
-(https://github.com/qzane/ChromeCookiesReader)
+[https://github.com/qzane/ChromeCookiesReader](https://github.com/qzane/ChromeCookiesReader)
 
 # about:nothing
 不想背GRE的间歇，写了个在windows下解密ChromeCookies文件的东西
