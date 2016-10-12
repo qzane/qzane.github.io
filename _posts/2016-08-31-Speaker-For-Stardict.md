@@ -5,14 +5,14 @@ title: Speaker-For-Stardict
 为StarDict添加(稍微动听一些的TTS发音).
 
 # 目的
-StarDict是Linux下最常用的字典软件，并且支持取词功能，尤其是添加了一些词典和真人语音库以后，非常适合英语学习。我会在另一个帖子中分享我比较推荐的几个字典和语音库。</br>
+StarDict是Linux下最常用的字典软件，并且支持取词功能，尤其是添加了一些词典和真人语音库以后，非常适合英语学习。我会在另一个帖子中分享我比较推荐的几个字典和语音库。<br/>
 但是语音库终归是有限的，对于剩下的单词，虽然可以使用espeak这样的TTS发音软件，但音质实在是...还不如没有。于是我想到了用[Dict.cn](http://dict.cn)上的发音。
 
 # 过程
-提取发音地址的方法很简单，看下面提供的代码即可。</br>
-把这份代码保存为 $HOME/.stardict/speaker.py </br>
-然后在 `StarDict设置>>Dictionary>>Sound` 中  </br>
-把`Use TTS program` 前面的勾打上 </br>
+提取发音地址的方法很简单，看下面提供的代码即可。  <br/>
+把这份代码保存为 $HOME/.stardict/speaker.py   <br/>
+然后在 `StarDict设置>>Dictionary>>Sound` 中   <br/>
+把`Use TTS program` 前面的勾打上  <br/>
 在 `Commandline` 中填写 `python $HOME/.stardict/speaker.py %s &`即可
 
 # 注意
