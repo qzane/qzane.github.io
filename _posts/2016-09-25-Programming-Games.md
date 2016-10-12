@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speaker-For-Stardict
+title: Programming-Games
 ---
 超赞的自动机编程游戏。
 
