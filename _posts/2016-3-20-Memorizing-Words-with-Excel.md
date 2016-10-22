@@ -13,7 +13,8 @@ title: Memorizing words with Excel
 ![最终效果](/images/160320-demo.png "最终效果") <br/>
 测试时，可以隐藏B列和D列，在C列中打出拼写，A列会自动判断拼写结果。
 
-# 设置方法  
+
+# 设置方法 [MS Office]
 
 ## 输入公式
 在A2中输入公式: `=IF(C2="","空",IF(B2:B200=C2:C200,"正确","错误"))` <br/>
@@ -36,4 +37,12 @@ title: Memorizing words with Excel
 
 # 使用
 第一次需要把正确的英文输入B列中，一列一个，建议释义可以先不用写。根据录音听写前先选中B列，设置字体颜色为白色，这样就达到了隐藏的效果，然后就可以听录音做听写了。对于错的比较多的单词再补充它的释义上去。
+
+# 设置 [LibreOffice]
+
+```
+Tools -> AutoCorrect Options -> Replacements and exceptions for language: [All] 
+Tools -> Cell Contents -> AutoInput.
+```
+
 
