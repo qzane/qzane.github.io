@@ -14,5 +14,5 @@ Surface Oriantation Estimation(Perspective projection)  <br>
 ![3D Scene Reconstruction](/images/161208-3d-reconstruction-3.gif "3D Scene Reconstruction")  <br>
 
 # Method 
-
-TBA (contact me@qzane.com for details if you are interested)
+Under Constrction
+(contact me@qzane.com for details if you are interested)
