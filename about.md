@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Me
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a senior student from the honor program of School of Computer Science, Fudan University. I am interested in artificial intelligence, robotics and computer vision, and I am currently seeking PhD position at related fields, please contact me if you are interested, thanks!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[me@qzane.com](mailto:me@qzane.com)
