@@ -31,7 +31,7 @@ where <br>
 
 $z_1$ = 3000 (or any other constant, all of which will lead to the same result of $\vec V$) <br>
 
-Since our object function has only one variable, there are dozens of methods to find its minimal, I tried particle swarm optimization (PSO), and it worked well. <br>
+Since our object function has only one variable($z_2$), there are dozens of methods to find its minimal, I tried particle swarm optimization (PSO), and it worked well. <br>
 
 
 Once we get the value of $z_2$, we get the value of $P_1-P_4$, with which, we can calculate the value of $\vec V$ easily. <br>
