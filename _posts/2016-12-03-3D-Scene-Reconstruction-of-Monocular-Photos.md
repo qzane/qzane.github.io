@@ -5,13 +5,8 @@ title: 3D Scene Reconstruction of A Single Monocular Photos by Estimating the Or
 This is just part of my undergraduate thesis about "Scene Understanding for Robots" which is still under constrction, so that this post may seem unfinished. I'm sorry for that, but you are always welcomed to contact me[AT]qzane.com for details if you are interested.
 
 # Demo
-Original Photo(Perspective projection)  <br>
-![Original Photo](/images/161208-3d-reconstruction-0.BMP "Original Photo")  <br>
-Strong Outlines(Perspective projection)  <br>
-![Strong Outlines](/images/161208-3d-reconstruction-1.bmp "Strong Outlines")  <br>
-Surface Oriantation Estimation(Perspective projection)  <br>
-![Surface Oriantation Estimation](/images/161208-3d-reconstruction-2.bmp "Surface Oriantation Estimation")  <br>
-3D Scene Reconstruction(Orthographic projection)  (No.15 showed an error due to low photo resoluction) <br>
+![Demo](/images/161208-3d-reconstruction-mix.jpg "Demo")  <br>
+(No.15 showed an error due to low photo resoluction) <br>
 ![3D Scene Reconstruction](/images/161208-3d-reconstruction-3.gif "3D Scene Reconstruction")  <br>
 
 # Description 
