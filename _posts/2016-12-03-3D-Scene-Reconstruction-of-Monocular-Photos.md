@@ -11,7 +11,7 @@ Strong Outlines(Perspective projection)  <br>
 ![Strong Outlines](/images/161208-3d-reconstruction-1.bmp "Strong Outlines")  <br>
 Surface Oriantation Estimation(Perspective projection)  <br>
 ![Surface Oriantation Estimation](/images/161208-3d-reconstruction-2.bmp "Surface Oriantation Estimation")  <br>
-3D Scene Reconstruction(Orthographic projection)  (No.15 showed an error due to lack of robustness <br>
+3D Scene Reconstruction(Orthographic projection)  (No.15 showed an error due to low photo resoluction) <br>
 ![3D Scene Reconstruction](/images/161208-3d-reconstruction-3.gif "3D Scene Reconstruction")  <br>
 
 # Description 
@@ -21,7 +21,7 @@ I’m still trying different methods to find rectangles more precisely, and I'm 
 Questions and suggestions by email are always welcomed!
 
 ## Surface Oriantation Estimation(Perspective projection)
-Detailded reasoning process can be download [here](https://github.com/qzane/qzane.github.io/raw/master/attachments/161208-caculate-oriantation-rectangles.pdf "caculate-oriantation-rectangles.pdf"). The following is an outline. <br>
+Detailded reasoning process can be download [here](https://github.com/qzane/qzane.github.io/raw/master/attachments/161208-calculate-orientation-rectangles.pdf "calculate-orientation-rectangles.pdf"). The following is an outline. <br>
 ![Notations](/images/161208-3d-reconstruction-notation.png "Notations") <br>
 As shown in the picture above. $O$ is the optical center of the camera and $\vec z_1$ is its optical axis. $(O-xyz)$ is a 3D orthogonal coordinate system and $(O_0-uv)$ is the image plane with $OO$ as its image center. <br>
 
@@ -35,7 +35,7 @@ where <br>
 
 $z_1$ = 3000 (or any other constant, all of which will lead to the same result of $\vec V$) <br>
 
-Since our object function has only one variable, there are dozens of methods to find its minimal, I tried particle swarm optimization (PSO), and it worded well. <br>
+Since our object function has only one variable, there are dozens of methods to find its minimal, I tried particle swarm optimization (PSO), and it worked well. <br>
 
 
 Once we get the value of $z_2$, we get the value of $P_1-P_4$, with which, we can calculate the value of $\vec V$ easily. <br>
