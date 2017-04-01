@@ -21,7 +21,7 @@ I’m still trying different methods to find rectangles more precisely, and I'm 
 Questions and suggestions by email are always welcomed!
 
 ## Surface Oriantation Estimation(Perspective projection)
-Detailded reasoning process can be download [here](https://github.com/qzane/qzane.github.io/raw/master/attachments/161208-calculate-orientation-rectangles.pdf "calculate-orientation-rectangles.pdf"). The following is an outline. <br>
+Detailed reasoning process can be download [here](https://github.com/qzane/qzane.github.io/raw/master/attachments/161208-calculate-orientation-rectangles.pdf "calculate-orientation-rectangles.pdf"). The following is an outline. <br>
 ![Notations](/images/161208-3d-reconstruction-notation.png "Notations") <br>
 As shown in the picture above. $O$ is the optical center of the camera and $\vec z_1$ is its optical axis. $(O-xyz)$ is a 3D orthogonal coordinate system and $(O_0-uv)$ is the image plane with $OO$ as its image center. <br>
 
@@ -45,4 +45,4 @@ Once we get the value of $z_2$, we get the value of $P_1-P_4$, with which, we ca
 Once we have the oriantations of all rectangles, we can infer their relative positions from the intersections in the photo and eventually reconstruct the whole scene. Although the low resoluction and some potential distortion in the photo may cause some error, they won’t have large impact to the whole model because the oriantations are calculated independently. <br>
 
 # Experimental Results
-I’m currently trying to verify my work on [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and compare with other works. Email me if you are interested about current results.
+I’m currently trying to verify my work on [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and compare it with other works. Email me if you are interested about current results.
