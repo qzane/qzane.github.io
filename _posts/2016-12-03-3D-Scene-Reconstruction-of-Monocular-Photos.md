@@ -2,7 +2,6 @@
 layout: post
 title: 3D Scene Reconstruction of A Single Monocular Photos by Estimating the Orientation of Rectangles
 ---
-This is just part of my undergraduate thesis about "Scene Understanding for Robots" which is still under constrction, so that this post may seem unfinished. I'm sorry for that, but you are always welcomed to contact me[AT]qzane.com for details if you are interested.
 
 # Demo
 ![Demo](/images/161208-3d-reconstruction-mix.jpg "Demo")  <br>
@@ -10,6 +9,8 @@ This is just part of my undergraduate thesis about "Scene Understanding for Robo
 ![3D Scene Reconstruction](/images/161208-3d-reconstruction-3.gif "3D Scene Reconstruction")  <br>
 
 # Description 
+This is just part of my undergraduate thesis about "Scene Understanding for Robots" which is still under constrction, so that this post may seem unfinished. I'm sorry for that, but you are always welcomed to contact me[AT]qzane.com for details if you are interested.
+
 ## Original Photo(Perspective projection)
 ## Finding Strong Outlines and Potential Rectangles (Perspective projection)
 I’m still trying different methods to find rectangles more precisely, and I'm trying to make use of [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) as my training set. <br>
