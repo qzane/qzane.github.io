@@ -17,7 +17,7 @@ I’m still trying different methods to find rectangles more precisely, and I'm 
 Questions and suggestions by email are always welcomed!
 
 ## Surface Oriantation Estimation(Perspective projection)
-Detailed reasoning process can be download [here](https://github.com/qzane/qzane.github.io/raw/master/attachments/161208-calculate-orientation-rectangles.pdf "calculate-orientation-rectangles.pdf"). The following is an outline. <br>
+Detailed reasoning process can be downloaded [here](https://github.com/qzane/qzane.github.io/raw/master/attachments/161208-calculate-orientation-rectangles.pdf "calculate-orientation-rectangles.pdf"). The following is an outline. <br>
 ![Notations](/images/161208-3d-reconstruction-notation.png "Notations") <br>
 As shown in the picture above. $O$ is the optical center of the camera and $\vec z_1$ is its optical axis. $(O-xyz)$ is a 3D orthogonal coordinate system and $(O_0-uv)$ is the image plane with $OO$ as its image center. <br>
 
