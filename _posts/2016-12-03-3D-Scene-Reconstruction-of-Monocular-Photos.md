@@ -13,7 +13,7 @@ This is just part of my undergraduate thesis about "Scene Understanding for Robo
 
 ## Original Photo(Perspective projection)
 ## Finding Strong Outlines and Potential Rectangles (Perspective projection)
-This is actually a critical part of this tast, and I'm currently using some empirical methods to find potential spacial rectangles like using the completeness of angles formed between lines. However the result is not that good and I am trying some new models with the help of [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and [Stanford 2D-3D-Semantics Dataset](http://buildingparser.stanford.edu/dataset.html). <br>
+This is actually a critical section of this task, and I'm currently using some empirical methods to find potential spacial rectangles like using the completeness of angles formed between lines. However the result is not that good and I am trying some new models with the help of [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and [Stanford 2D-3D-Semantics Dataset](http://buildingparser.stanford.edu/dataset.html). <br>
 
 Questions and suggestions by email are always welcomed!
 
