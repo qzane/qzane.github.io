@@ -41,5 +41,5 @@ Once we get the value of ![tex](https://latex.codecogs.com/gif.latex?Z_2), we ge
 
 Once we have the oriantations of all rectangles, we can infer their relative positions from the intersections in the photo and eventually reconstruct the whole scene. Although the low resoluction and some potential distortion in the photo may cause some error, they won’t have large impact to the whole model because the oriantations are calculated independently. <br>
 
-# Experimental Results
-I’m currently trying to do some qualitative analysis using [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and [Stanford 2D-3D-Semantics Dataset](http://buildingparser.stanford.edu/dataset.html). I will also compare my result with some other works and update the results here. Email me if you are interested about current results.
+# Datasets
+I’m currently trying to do some qualitative analysis using [NYU Depth Dataset V2](http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and [Stanford 2D-3D-Semantics Dataset](http://buildingparser.stanford.edu/dataset.html). 
