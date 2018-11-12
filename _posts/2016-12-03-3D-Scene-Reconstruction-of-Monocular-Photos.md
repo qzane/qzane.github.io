@@ -20,22 +20,22 @@ Questions and suggestions by email are always welcomed!
 ## Surface Oriantation Estimation(Perspective projection)
 Detailed reasoning process can be downloaded [here](https://github.com/qzane/qzane.github.io/raw/master/attachments/161208-calculate-orientation-rectangles.pdf "calculate-orientation-rectangles.pdf"). The following is an outline. <br>
 ![Notations](/images/161208-3d-reconstruction-notation.png "Notations") <br>
-As shown in the picture above. $O$ is the optical center of the camera and $\vec z_1$ is its optical axis. $(O-xyz)$ is a 3D orthogonal coordinate system and $(O_0-uv)$ is the image plane with $OO$ as its image center. <br>
+As shown in the picture above. ![tex](https://latex.codecogs.com/gif.latex?O) is the optical center of the camera and ![tex](https://latex.codecogs.com/gif.latex?\vec&space;z_1) is its optical axis. ![tex](https://latex.codecogs.com/gif.latex?O_{xyz}) is a 3D orthogonal coordinate system and ![tex](https://latex.codecogs.com/gif.latex?O_0-uv) is the image plane with ![tex](https://latex.codecogs.com/gif.latex?OO) as its image center. <br>
 
-we are going to estimate the oriantation of the $plane(P_1-P_4)$, or more specifically: its normal vector $\vec V$, with its projection $PP_1-PP_4$ on the image plane.  <br>
+we are going to estimate the oriantation of the ![tex](https://latex.codecogs.com/gif.latex?plane(P_1-P_4)), or more specifically: its normal vector ![tex](https://latex.codecogs.com/gif.latex?\vec&space;V), with its projection ![tex](https://latex.codecogs.com/gif.latex?PP_1-PP_4) on the image plane.  <br>
 
-The problem can be reduce to find the value of $z_2$ which can minimal the value of our object function: <br>
+The problem can be reduce to find the value of ![tex](https://latex.codecogs.com/gif.latex?Z_2) which can minimal the value of our object function: <br>
 ![object function](/images/161208-3d-reconstruction-objFunction.png "object function") <br>
 
 where <br>
 ![variables](/images/161208-3d-reconstruction-vars.png "variables") <br>
 
-$z_1$ = 3000 (or any other constant, all of which will lead to the same result of $\vec V$) <br>
+![tex](https://latex.codecogs.com/gif.latex?Z_1=300) (or any other constant, all of which will lead to the same result of ![tex](https://latex.codecogs.com/gif.latex?\vec&space;V)) <br>
 
-Since our object function has only one variable($z_2$), there are dozens of methods to find its minimal, I tried particle swarm optimization (PSO), and it worked well. <br>
+Since our object function has only one variable(![tex](https://latex.codecogs.com/gif.latex?Z_2)), there are dozens of methods to find its minimal, I tried particle swarm optimization (PSO), and it worked well. <br>
 
 
-Once we get the value of $z_2$, we get the value of $P_1-P_4$, with which, we can calculate the value of $\vec V$ easily. <br>
+Once we get the value of ![tex](https://latex.codecogs.com/gif.latex?Z_2), we get the value of $P_1-P_4$, with which, we can calculate the value of ![tex](https://latex.codecogs.com/gif.latex?\vec&space;V) easily. <br>
 
 ## 3D Scene Reconstruction(Orthographic projection)
 
