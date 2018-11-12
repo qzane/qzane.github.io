@@ -4,7 +4,7 @@ title: Online Brain MRI Segmentation Tool
 ---
 
 # Demo
-![Demo](/images/20181111-Ibeat-online.png "Demo")  <br>
+[<img src="/images/20181111-Ibeat-online.png">](https://ibeat.qzane.com) <br>
 [Link: https://ibeat.qzane.com](https://ibeat.qzane.com) <br>
 
 # Description 
