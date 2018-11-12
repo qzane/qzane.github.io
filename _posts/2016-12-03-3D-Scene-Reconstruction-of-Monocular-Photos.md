@@ -35,7 +35,7 @@ where <br>
 Since our object function has only one variable(![tex](https://latex.codecogs.com/gif.latex?Z_2)), there are dozens of methods to find its minimal, I tried particle swarm optimization (PSO), and it worked well. <br>
 
 
-Once we get the value of ![tex](https://latex.codecogs.com/gif.latex?Z_2), we get the value of $P_1-P_4$, with which, we can calculate the value of ![tex](https://latex.codecogs.com/gif.latex?\vec&space;V) easily. <br>
+Once we get the value of ![tex](https://latex.codecogs.com/gif.latex?Z_2), we get the value of ![tex](https://latex.codecogs.com/gif.latex?P_1-P_4), with which, we can calculate the value of ![tex](https://latex.codecogs.com/gif.latex?\vec&space;V) easily. <br>
 
 ## 3D Scene Reconstruction(Orthographic projection)
 
