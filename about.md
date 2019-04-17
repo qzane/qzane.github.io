@@ -16,11 +16,12 @@ IEEE International Symposium on Biomedical Imaging (ISBI) 2019. __(Oral)__ <br>
 ### Deep Learning for Fast and Spatially-Constrained Tissue Quantification from Highly-Accelerated Data in Magnetic Resonance Fingerprinting
 Z Fang, Y Chen, M Liu, L Xiang, __Q Zhang__, Q Wang, W Lin, D Shen <br>
 IEEE transactions on medical imaging <br>
+[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8641364)
 
 ### Benchmark on Automatic 6-month-old Infant Brain Segmentation Algorithms: The iSeg-2017 Challenge
 L Wang, D Nie, G Li, É Puybareau, J Dolz, __Q Zhang__, F Wang, J Xia, Z Wu, ... <br>
 IEEE transactions on medical imaging <br>
-
+[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8654000)
 
 ## Contact me
 [me@qzane.com](mailto:me@qzane.com)
