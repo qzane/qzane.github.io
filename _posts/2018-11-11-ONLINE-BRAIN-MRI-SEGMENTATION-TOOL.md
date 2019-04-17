@@ -13,6 +13,7 @@ Skull Stripping, T1/T2 alignment and Tissue segmentation Pipeline <br>
 
 
 # Paper & Code
-The paper has been accepted by ISBI 2019, and we will release the code in January 2019. <br>
+The paper has been accepted by IEEE International Symposium on Biomedical Imaging (ISBI) 2019 for oral presentation. <br>
+You can download the paper [here](https://arxiv.org/abs/1904.05578), and we will release the code and pretrained models shortly. <br>
 If you have any question, please contact me at qian_zhang [AT] unc.edu
 
