@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ## Me
-I am a PhD student at the department of computer science, University of North Carolina at Chapel Hill. I obtained my bachelor degree from School of Computer Science at Fudan University. I am doing so research about medical image.
+I am a PhD student at the department of computer science, University of North Carolina at Chapel Hill. I obtained my bachelor degree from School of Computer Science at Fudan University. I am doing some research about medical image.
 
 ## Publication
 
