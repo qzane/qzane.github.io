@@ -11,8 +11,8 @@ results using [SMPL-X](https://smpl-x.is.tue.mpg.de/)
 ## Initialization
 initialization
 octopus v.s. [videoBased](http://gvv.mpi-inf.mpg.de/projects/wxu/VideoAvatar/)
-![initialization](/images/20191028_3D_body_2.png "SMPL-X")
+![initialization](/images/20191028_3D_body_2.png "Initialization")
 
 ## Cloth semantic segmentation
 PGN(https://github.com/Engineering-Course/CIHP_PGN) v.s. JPP
-![initialization](/images/20191028_3D_body_3.png "SMPL-X")
+![initialization](/images/20191028_3D_body_3.png "PGN v.s. JPP")
