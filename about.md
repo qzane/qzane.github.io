@@ -5,9 +5,9 @@ permalink: /about/
 ---
 
 ## Me
-I am a PhD student at the department of computer science, University of North Carolina at Chapel Hill. I obtained my bachelor degree from School of Computer Science at Fudan University. I am interested in machine learning and system things.
+I am a PhD student at the department of computer science, University of North Carolina at Chapel Hill. I am working on 3D body reconstruction for VR/Telepresence with [Prof.Henry Fuchs](https://cs.unc.edu/people/henry-fuchs/)
 
-## Publication
+I obtained my bachelor degree from School of Computer Science at Fudan University.
 
 __FRNET: FLATTENED RESIDUAL NETWORK FOR INFANT MRI SKULL STRIPPING__ <br>
 __Q Zhang__, L Wang, X Zong, W Lin, G Li, D Shen <br>
