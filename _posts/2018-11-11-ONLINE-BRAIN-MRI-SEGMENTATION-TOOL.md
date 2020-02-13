@@ -9,5 +9,5 @@ Skull Stripping, T1/T2 alignment and Tissue segmentation Pipeline <br>
 
 # Try it now!
 [<img src="/images/20181111-Ibeat-online.png">](https://ibeat.qzane.com) <br>
-[Link: https://ibeat.qzane.com](https://ibeat.qzane.com) <br>
+[Link: http://ibeat.qzane.com](http://ibeat.qzane.com) <br>
 
