@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some research summarization
+title: Some research summary
 ---
 
 The goal for my research is to build a system that reconstruct and update moving bodies with moving cameras on AR glasses. 
