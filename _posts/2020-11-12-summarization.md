@@ -32,4 +32,4 @@ I am still working on this and I have a feeling that this is a right way for 3d 
 ![glasses](/images/201112-5-Qian_TSDF.png "TSDF mesh") <br>
 RGBD images scanned with [Realsense D435](https://www.intelrealsense.com/zh-hans/depth-camera-d435/) and data processed with [Open3d](http://www.open3d.org/).
 
-I'm seeking a 2021 summer internship position in AR/VR. Please let me know if you are interested in my research. My email is me[at]qzane.com
+I'm seeking a 2021 summer internship position in AR/VR, 3D reconstruction or SLAM. Please let me know if you are interested in my research. My email is qzane[at]cs.unc.com
