@@ -30,6 +30,6 @@ Beside predefined model-based reconstruction, there are some other methods like 
 This is a powerful method that good at reconstructing and update shape and texture for arbitrary 3d object.  
 I am still working on this and I have a feeling that this is a right way for 3d body pre-scan.
 ![glasses](/images/201112-5-Qian_TSDF.png "TSDF mesh") <br>
-RGBD images scanned with [Realsense D435](https://www.intelrealsense.com/zh-hans/depth-camera-d435/) and data processed with [Open3d](http://www.open3d.org/).
+RGBD images scanned with [Intel Realsense D435](https://www.intelrealsense.com/zh-hans/depth-camera-d435/) and data processed with [Open3d](http://www.open3d.org/).
 
 I'm seeking a 2021 summer internship position in AR/VR, 3D reconstruction or SLAM. Please let me know if you are interested in my research. My email is qzane[at]cs.unc.com
